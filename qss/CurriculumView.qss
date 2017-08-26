@@ -1,0 +1,64 @@
+QWidget#CurriculumItem{
+    background-color:white;
+    border-bottom:1px solid #ebedee;
+}
+QWidget#CurriculumWidget{
+     background-color:white;   
+}
+QScrollArea{
+   border-color:white;
+   border-style:none;
+
+}
+QLabel{
+ font-size:14px;
+}
+QLabel#name_label{
+ border-color:black;
+  font-family:SimHei;
+ font-size:14px;
+ font-weight:900;
+
+}
+QLabel#time_label{
+ font-size:14px;
+  font-family:SimHei;
+ border-color:red;
+ font-weight:normal;
+
+}
+QLabel#top_label{
+    color:white;
+    font-weight:900;
+    font-size:16px;
+    border-style:solid;
+    background-color:#4aabe9;
+}
+
+QRadioButton::indicator::checked {
+    image:url(:/images/radio_button_checked.png);
+}
+
+QRadioButton::indicator::unchecked {
+    image: url(:/images/radio_button-uncheck.png);
+}
+QPushButton#close_btn{
+    border-style:none;
+    background-color:#4aabe9;
+    image:url(:/images/close_button.png);
+}
+QPushButton#close_btn:hover{
+    background-color:red;
+}
+QPushButton#ok_btn{
+    font-size:14px;
+    color:white;
+    border-style:none;
+    background-color:#4aabe9;
+}
+QScrollArea:bar {
+      border: 14px solid red;
+      background: #32CC99;
+      height: 15px;
+      margin: 0px 20px 0 20px;
+  }

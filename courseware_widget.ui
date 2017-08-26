@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>courseware_widget</class>
+ <widget class="QWidget" name="courseware_widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>124</width>
+    <height>669</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>courseware_widget</string>
+  </property>
+  <widget class="QPushButton" name="HT_btn">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>124</width>
+     <height>64</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>心脏听诊教学</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="abdomen_L_btn">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>65</y>
+     <width>124</width>
+     <height>64</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>腹部听诊教学</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="abdomen_T_btn">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>130</y>
+     <width>124</width>
+     <height>64</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>腹部触诊教学</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ECG_btn">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>195</y>
+     <width>124</width>
+     <height>64</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>心电图教学</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="title_label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>620</y>
+     <width>124</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>         课件</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,65 @@
+QDialog#LoginForm{
+   background-color:white;
+}
+
+QListWidget{
+   border-style:none;
+    width:234;
+}
+QListWidget:item{
+       border-style:none;
+    /*   background-color:white;*/
+}
+QListWidget::item{
+    width:228;
+    height:32;
+    font-size:14px;
+}
+QListWidget::item:hover {
+      background-color: #5acdee;
+}
+QCheckBox {
+     font-size:14px;
+ }
+QCheckBox::indicator:checked {
+    image:url(:/images/Check-box--(Checked).png)
+}
+QCheckBox::indicator:unchecked {
+    image:url(:/images/Check-box-(hover).png)
+}
+QComboBox::drop-down {
+    height:41px;
+    image:url(:/images/boxDown.png)
+}
+QComboBox::drop-down:hover{
+    background-color: #4aabe9;
+}
+QComboBox QAbstractItemView::item{
+     width:41px;
+}
+QComboBox QAbstractItemView::item:hover{
+     background-color:#4aabe9;
+}
+QLabel#m_title_label{
+    color:#a5cbe9;
+}
+QLabel#backgroundLabel{
+
+    background-image:url(:/images/land_bg_img.png);
+}
+
+
+
+QPushButton{
+    border-style:solid;
+    font-size:16px;
+}
+
+QPushButton#m_close_btn:hover{
+    background-color:red;
+}
+QPushButton#m_close_btn{
+    border-style:none;
+    image:url(:/images/close_button.png)
+}
+

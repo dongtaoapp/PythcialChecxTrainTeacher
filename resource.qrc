@@ -1,0 +1,47 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/clicked.png</file>
+        <file>images/close.png</file>
+        <file>images/close_button.png</file>
+        <file>images/log.png</file>
+        <file>images/minimize_button.png</file>
+        <file>images/open.png</file>
+        <file>qss/PhysicalCheckTrainTeacher.qss</file>
+        <file>images/amplifyingauscultation_button.png</file>
+        <file>images/auscultation_button.png</file>
+        <file>images/intercom_button.png</file>
+        <file>images/play_button.png</file>
+        <file>images/whiteboard_button.png</file>
+        <file>images/wholeteaching_button.png</file>
+        <file>qss/talkwindow.qss</file>
+        <file>images/play_button_presed.png</file>
+        <file>images/search_button.png</file>
+        <file>images/menu_auscultation.png</file>
+        <file>images/menu_courseware.png</file>
+        <file>images/menu_standardcase.png</file>
+        <file>qss/LoginForm.qss</file>
+        <file>images/background.png</file>
+        <file>images/boxDown.png</file>
+        <file>images/Check-box--(Checked).png</file>
+        <file>images/Check-box-(hover).png</file>
+        <file>images/jyv1.1.png</file>
+        <file>images/land_bg_img.png</file>
+        <file>images/raisehands_icon.png</file>
+        <file>images/testbed_connected_icon.png</file>
+        <file>images/testbed_disconnect_icon.png</file>
+        <file>images/set.png</file>
+        <file>qss/CurriculumView.qss</file>
+        <file>images/radio_button_checked.png</file>
+        <file>images/radio_button-uncheck.png</file>
+        <file>images/compare_hide.png</file>
+        <file>images/compare_sidepull.png</file>
+        <file>images/identify.png</file>
+        <file>images/identify_hover.png</file>
+        <file>images/schedule_button.png</file>
+        <file>images/touchTrainBtn.png</file>
+        <file>images/more_about_icon.png</file>
+        <file>images/more_poweroff_icon.png</file>
+        <file>images/more_set_icon.png</file>
+        <file>images/more_signout_icon.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QCompareView</class>
+ <widget class="QWidget" name="QCompareView">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>301</width>
+    <height>619</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#QCompareView{
+	border-style:solid;
+	background-color:white;
+	border:1px solid #bebebe;
+	
+}
+</string>
+  </property>
+  <widget class="QPushButton" name="hide_btn">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>20</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-style:solid;
+border-bottom:1px solid #bebebe;
+image:url(:/images/compare_hide.png)</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="close_btn">
+   <property name="geometry">
+    <rect>
+     <x>281</x>
+     <y>0</y>
+     <width>20</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-style:solid;
+border-bottom:1px solid #bebebe;
+image:url(:/images/close_button.png)</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="deleteBtn_first">
+   <property name="geometry">
+    <rect>
+     <x>274</x>
+     <y>42</y>
+     <width>27</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-style:solid;
+color:#4aabe9;
+font-size:14px;
+border-bottom:1px solid #bebebe;
+</string>
+   </property>
+   <property name="text">
+    <string>删除</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="deleteBtn_second">
+   <property name="geometry">
+    <rect>
+     <x>274</x>
+     <y>84</y>
+     <width>27</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-style:solid;
+color:#4aabe9;
+font-size:14px;
+border-bottom:1px solid #bebebe;</string>
+   </property>
+   <property name="text">
+    <string>删除</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_first">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>42</y>
+     <width>274</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel#label_first{
+	font-size:14px;
+	color:#4aabe9;
+	font-weight:900;
+    border-style:solid;
+	border-bottom:1px solid #bebebe;
+}</string>
+   </property>
+   <property name="text">
+    <string>   label_first</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_second">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>84</y>
+     <width>274</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel#label_second{
+	font-size:14px;
+	color:#4aabe9;
+	font-weight:900;
+    border-style:solid;
+	border-bottom:1px solid #bebebe;
+}</string>
+   </property>
+   <property name="text">
+    <string>    label_seconf</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="empty_btn">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>170</y>
+     <width>75</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-style:solid;
+background-color:white;
+color:#4aabe9;
+font-size:14px;</string>
+   </property>
+   <property name="text">
+    <string>清空</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="compareBtn">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>170</y>
+     <width>132</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-style:solid;
+font-size:14px;
+background-color:#4aabe9;
+color:white;</string>
+   </property>
+   <property name="text">
+    <string>确认对比</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>180</y>
+     <width>51</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>最多两个</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="title_label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>0</y>
+     <width>281</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel#title_label{
+	font-size:16px;
+	color:black;
+	font-weight:900;
+    border-style:solid;
+	border-bottom:1px solid #bebebe;
+}</string>
+   </property>
+   <property name="text">
+    <string>                    title</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>case_widget</class>
+ <widget class="QWidget" name="case_widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>124</width>
+    <height>669</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="hs">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>124</width>
+     <height>64</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>心音听诊</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="abs">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>65</y>
+     <width>124</width>
+     <height>64</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>腹部听诊</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bbgs">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>130</y>
+     <width>124</width>
+     <height>64</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>肠鸣音听诊</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>620</y>
+     <width>124</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>   标准化听诊病例</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

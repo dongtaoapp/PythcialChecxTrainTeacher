@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QTrainMainWindow</class>
+ <widget class="QWidget" name="QTrainMainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1366</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>QTrainMainWindow</string>
+  </property>
+  <widget class="QLabel" name="tab_widget_label">
+   <property name="geometry">
+    <rect>
+     <x>137</x>
+     <y>709</y>
+     <width>232</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="tab_widget_right_btn">
+   <property name="geometry">
+    <rect>
+     <x>252</x>
+     <y>712</y>
+     <width>114</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;
+color:black;
+border-radius: 10px;
+font-size:14px;
+border-bottom:2px;</string>
+   </property>
+   <property name="text">
+    <string>课程表课程</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="tab_widget_left_btn">
+   <property name="geometry">
+    <rect>
+     <x>138</x>
+     <y>712</y>
+     <width>114</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;
+color:black;
+border-radius: 10px;
+font-size:14px;</string>
+   </property>
+   <property name="text">
+    <string>全部课程</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="IdentifyauscultationBtn">
+   <property name="geometry">
+    <rect>
+     <x>366</x>
+     <y>364</y>
+     <width>31</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-style:solid;
+image:url(:/images/compare_sidepull.png)</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

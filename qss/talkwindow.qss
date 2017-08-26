@@ -1,0 +1,36 @@
+QPushButton{
+    color:white;
+    border-style:solid;
+    font-size:12px ;
+    background-color:#4aabe9;
+}
+QPushButton:hover{
+    background-color:red;
+}
+QPushButton#close_btn{
+    background-color:#3099e5;
+    image:url(:/images/close_button.png);
+}
+QPushButton#close_btn:hover{
+     color:white;
+     background-color:red;
+}
+QLabel#top_label{
+    color:white;
+    font-size:14px;
+    font-weight:900;
+    background-color:#3099e5;
+}
+QCheckBox {
+     font-size:12px;
+     font-weight:normal;
+ }
+QCheckBox::indicator:checked {
+    color:#4aabe9;
+}
+QCheckBox::indicator:unchecked {
+   color:white;
+}
+QWidget#scrollArea_widget{
+    background-color:white;
+}

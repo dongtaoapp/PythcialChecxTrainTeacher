@@ -1,0 +1,155 @@
+QLabel#top_label{
+    background-color:#e8e8e8;
+}
+QLabel#m_title_label{
+    color:#a5cbe9;
+}
+QLabel#m_log_title{
+    background-color:#4aabe9;
+    image:url(:/images/log.png);
+}
+QLabel#search_label{
+    background-color:#3099e5;
+}
+QLabel#local_label{
+    background-color:#4aabe9;
+}
+QLabel#path_label{
+    color:white;
+    font-size:14px;
+}
+QLabel#tab_widget_label{
+    color:white;
+    border-radius: 6px;
+    background-color:#4aabe9;
+    font-size:14px;
+}
+QLabel#bottom_label{
+    color:black;
+    font-size:14px;
+    background-color:#f7f7f7;
+}
+QLabel#touchTrainLabel{
+    color:white;
+    font-size:16px;
+}
+QLabel#image_label{
+
+    background-color:white;
+}
+QLineEdit#m_pSearchLineEdit{
+    color:white;
+    border:1px solid white;
+    border-radius: 2px;
+    background-color:#3099e5;
+
+}
+QListWidget::item{
+    border-style:none;
+    background-color:white;
+    height:50;
+    font-size:50px;
+}
+QListWidget::item:hover {
+      background-color: #5acdee;
+}
+
+/*QListWidget::item:selected {
+      background-color: #5acdee;
+}*/
+QPushButton{
+    border-style:solid;
+    font-size:14px;
+}
+
+QPushButton:hover{
+   background-color:#4aabe9;
+    border-radius: 6px;
+}
+QPushButton#sheduleBtn{
+    border-style:solid;
+    image:url(:/images/schedule_button.png)
+}
+QPushButton#pSearchButton{
+    image:url(:/images/search_button.png);
+
+}
+QPushButton#m_close_btn:hover{
+    background-color:red;
+}
+QPushButton#m_min_btn:hover{
+    background-color:red;
+}
+
+QPushButton#m_close_btn{
+    border-style:none;
+    image:url(:/images/close_button.png)
+}
+
+QPushButton#m_min_btn{
+    border-style:none;
+    image:url(:/images/minimize_button.png)
+}
+QPushButton#play_btn{
+   border-radius:6px;
+   border-style:none;
+   image:url(:/images/play_button.png);
+}
+QPushButton#listen_btn{
+    border-style:none;
+    image:url(:/images/auscultation_button.png);
+}
+QPushButton#speak_btn{
+    border-style:none;
+    image:url(:/images/amplifyingauscultation_button.png);
+}
+QPushButton#talk_btn{
+    border-style:none;
+    image:url(:/images/intercom_button.png);
+}
+QPushButton#teach_btn{
+    border-style:none;
+    image:url(:/images/wholeteaching_button.png);
+}
+QPushButton#bord_btn{
+    border-style:none;
+   image:url(:/images/whiteboard_button.png);
+}
+QPushButton#touchTrainBtn{
+    border-style:none;
+    image:url(:/images/touchTrainBtn.png);
+}
+QPushButton#sysTemBtn
+{
+    border-style:solid;
+    background-color:red;
+}
+QTabWidget::pane {
+    border-top:1px none #C2C7CB;
+}
+QTabBar::tab{
+    width:41;height:30;background-color:#3099e5;
+}
+QTabBar::tab:hover{
+    background-color:red;
+}
+
+QTabBar::tab:first{
+    image:url(:/images/menu_courseware.png);
+}
+QTabBar::tab:middle{
+    image:url(:/images/menu_standardcase.png);
+}
+QTabBar::tab:last{
+    image:url(:/images/menu_auscultation.png);
+
+}
+QWidget#auscultation_widget,#case_widget,#courseware_widget{
+    background-color:#4aabe9;
+}
+QWidget#QTrainMainWindow{
+    background-color:white;
+}
+QCheckBox::indicator:checked {
+   image:url(:/images/Check-box--(Checked).png)
+}
