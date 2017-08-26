@@ -6,6 +6,7 @@
 #include <QAudioInput>
 #include <QStringList>
 #include <QMutex>
+#include <Windows.h>
 extern "C"
 {
 #include "va_g729a.h"
